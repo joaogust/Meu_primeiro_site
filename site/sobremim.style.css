@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.sobremim.png");
+    background-size: repeat;  /* Ou 'repeat' para texturas repetidas */  
+    color: e3f0ff;
+    font-family: "Roboto Slab", system-ui;
+    font-weight: 300;
+}
+
+header {
+    background: linear-gradient(to top, #183455, #0a1624);
+    color: #e3f0ff;
+    padding: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 10px;
+    border-bottom: 2px solid #10233a;
+}
+
+h1 {
+    font-size: 7rem;
+    padding: 1rem 0rem;
+}
+
+#p1 {
+    padding: 0.5rem;
+    border: 0.1rem solid #5a6a7d;;
+    background-color:  #10233a;
+    color: #e3f0ff;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0%auto;
+}
+
+#sombra {
+    background: linear-gradient(to top, transparent, #3f4b5d);
+    margin:0;
+    padding:0;
+    width: 100%;
+
+}
+
+#bloco {
+    display: flex;
+    align-items: center;
+}
+
+fieldset {
+    background: linear-gradient(to top, #1f456f, #142b46);
+    padding: 1rem 2rem;
+    width: 90%;
+    border: 2px solid #10233a;
+    border-radius: 7px;
+    margin: 0% auto;
+    color: #c8d0da;
+    font-size: 1.5rem;
+    flex: 1; /* Ocupa metade da tela */
+}
+
+legend {
+    background: #0a1624;
+    color: #c8d0da;
+    padding: 0.3rem 1.2rem;
+    border-radius: 7px;
+    font-size: 2rem;
+}
+
+.dados {
+    padding-bottom: 0.5rem;
+}
+
+#foto {
+    flex: 0.5rem; /* Ocupa metade da tela */     
+    width: 50%;
+    border: 2px solid #10233a;
+    border-radius: 7px;
+}
